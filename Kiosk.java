@@ -48,6 +48,12 @@ public class Kiosk {
 	private void brand() {
 		 WebElement bf = driver.findElement(By.xpath("//h4[text() ='Briyani Factory']"));
 		   bf.click();
+	}
+	@Test(priority = 4)
+	private void brand() {
+		 WebElement bf = driver.findElement(By.xpath("//h4[text() ='Briyani Factory']"));
+		   bf.click();
+	}
 
 	}
 	
